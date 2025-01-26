@@ -1,34 +1,75 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React from 'react'
+// import './App.css'
+// import Demo from './Components/Demo'
 
-function App() {
-  const [count, setCount] = useState(0)
+// function App() {
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+//   return (
+//     <>
+//       <Demo/>
+//     </>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+
+// import React from "react";
+// import Myself from "./Components/Demo";
+
+// function App(){
+
+//   return(
+//     <Myself name="Abhishek" age="21" />
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+// import React from "react";
+// import Me from "./Components/Demo";
+
+// function App(){
+//   const me= {
+//     name:"Abhi",
+//     age:"21",
+//     num:"9744642436"
+//   }
+
+
+//   return(
+//     <div>
+//       <Me dtls={me}  />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+import React from "react";
+import Count from "./Components/Demo";
+
+function App(){
+  return(
+    <Count/>
   )
 }
 
